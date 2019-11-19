@@ -13,7 +13,6 @@ app.use('/products', product);
 
 mongoose.connect("mongodb://localhost:27017/ExpressJsCRUD", function(err, db) {
     if(!err) {
-      console.log("We are connected");
     }
   });
 mongoose.Promise = global.Promise;
